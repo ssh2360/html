@@ -230,42 +230,42 @@
       <h2 data-key="coffee_ice_category">커피 ICE</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="ice_americano">
-          <img src="커피 아이스/아메리카노.jpg.jpg" alt="아이스 아메리카노">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%EC%95%84%EC%9D%B4%EC%8A%A4/%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8.jpg.jpg" alt="아이스 아메리카노">
           <div class="name" data-key="ice_americano"></div>
           <div class="price" data-price="ice_americano"></div>
         </div>
         <div class="menu-item" data-key="ice_cafelatte">
-          <img src="커피 아이스/카페라떼.jpg.jpg" alt="아이스 카페라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%EC%95%84%EC%9D%B4%EC%8A%A4/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg.jpg" alt="아이스 카페라떼">
           <div class="name" data-key="ice_cafelatte"></div>
           <div class="price" data-price="ice_cafelatte"></div>
         </div>
         <div class="menu-item" data-key="ice_soylatte">
-          <img src"커피 아이스/아이스소이라떼.jpg.jpg" alt="아이스 소이라떼">
+          <img src"https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%EC%95%84%EC%9D%B4%EC%8A%A4/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg.jpg" alt="아이스 소이라떼">
           <div class="name" data-key="ice_soylatte"></div>
           <div class="price" data-price="ice_soylatte"></div>
         </div>
         <div class="menu-item" data-key="ice_konkuk_condensed_milk_latte">
-          <img src="커피 아이스/카페라떼.jpg.jpg" alt="아이스 건국연유라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%EC%95%84%EC%9D%B4%EC%8A%A4/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg.jpg" alt="아이스 건국연유라떼">
           <div class="name" data-key="ice_konkuk_condensed_milk_latte"></div>
           <div class="price" data-price="ice_konkuk_condensed_milk_latte"></div>
         </div>
         <div class="menu-item" data-key="ice_vanilla_latte">
-          <img src="커피 아이스/바닐라라떼.jpg.jpg" alt="아이스 바닐라라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%EC%95%84%EC%9D%B4%EC%8A%A4/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg.jpg" alt="아이스 바닐라라떼">
           <div class="name" data-key="ice_vanilla_latte"></div>
           <div class="price" data-price="ice_vanilla_latte"></div>
         </div>
         <div class="menu-item" data-key="ice_caramel_macchiato">
-          <img src="KakaoTalk_20250515_134013684.png" alt="아이스 카라멜마끼아또">
+          <img src="https://github.com/ssh2360/html/blob/main/KakaoTalk_20250515_134013684.png" alt="아이스 카라멜마끼아또">
           <div class="name" data-key="ice_caramel_macchiato"></div>
           <div class="price" data-price="ice_caramel_macchiato"></div>
         </div>
         <div class="menu-item" data-key="ice_cafe_mocha">
-          <img src="커피 아이스/카페라떼.jpg.jpg" alt="아이스 카페모카">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%EC%95%84%EC%9D%B4%EC%8A%A4/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg.jpg" alt="아이스 카페모카">
           <div class="name" data-key="ice_cafe_mocha"></div>
           <div class="price" data-price="ice_cafe_mocha"></div>
         </div>
         <div class="menu-item" data-key="ice_konkuk_dr_u_latte">
-          <img src="커피 아이스/카페라떼.jpg.jpg" alt="아이스 건국닥터유라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%EC%95%84%EC%9D%B4%EC%8A%A4/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg.jpg" alt="아이스 건국닥터유라떼">
           <div class="name" data-key="ice_konkuk_dr_u_latte"></div>
           <div class="price" data-price="ice_konkuk_dr_u_latte"></div>
         </div>
@@ -276,47 +276,47 @@
       <h2 data-key="coffee_hot_category">커피 HOT</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="hot_americano">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="아메리카노">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8%20%ED%95%AB.jpg" alt="아메리카노">
           <div class="name" data-key="hot_americano"></div>
           <div class="price" data-price="hot_americano"></div>
         </div>
         <div class="menu-item" data-key="hot_cafelatte">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="카페라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC.jpg" alt="카페라떼">
           <div class="name" data-key="hot_cafelatte"></div>
           <div class="price" data-price="hot_cafelatte"></div>
         </div>
         <div class="menu-item" data-key="hot_soylatte">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="소이라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC.jpg" alt="소이라떼">
           <div class="name" data-key="hot_soylatte"></div>
           <div class="price" data-price="hot_soylatte"></div>
         </div>
          <div class="menu-item" data-key="hot_cappuccino">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="카푸치노">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC.jpg" alt="카푸치노">
           <div class="name" data-key="hot_cappuccino"></div>
           <div class="price" data-price="hot_cappuccino"></div>
         </div>
         <div class="menu-item" data-key="hot_konkuk_condensed_milk_latte">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="건국연유라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC.jpg" alt="건국연유라떼">
           <div class="name" data-key="hot_konkuk_condensed_milk_latte"></div>
           <div class="price" data-price="hot_konkuk_condensed_milk_latte"></div>
         </div>
         <div class="menu-item" data-key="hot_vanilla_latte">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="바닐라라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC.jpg" alt="바닐라라떼">
           <div class="name" data-key="hot_vanilla_latte"></div>
           <div class="price" data-price="hot_vanilla_latte"></div>
         </div>
         <div class="menu-item" data-key="hot_caramel_macchiato">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="카라멜마끼아또">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EC%B9%B4%EB%9D%BC%EB%A9%9C%EB%A7%88%EB%81%BC%EC%95%84%EB%98%90.jpg" alt="카라멜마끼아또">
           <div class="name" data-key="hot_caramel_macchiato"></div>
           <div class="price" data-price="hot_caramel_macchiato"></div>
         </div>
         <div class="menu-item" data-key="hot_cafe_mocha">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="카페모카">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC.jpg" alt="카페모카">
           <div class="name" data-key="hot_cafe_mocha"></div>
           <div class="price" data-price="hot_cafe_mocha"></div>
         </div>
         <div class="menu-item" data-key="hot_konkuk_dr_u_latte">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="건국닥터유라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%BB%A4%ED%94%BC%20%ED%95%AB/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC.jpg" alt="건국닥터유라떼">
           <div class="name" data-key="hot_konkuk_dr_u_latte"></div>
           <div class="price" data-price="hot_konkuk_dr_u_latte"></div>
         </div>
@@ -327,37 +327,37 @@
       <h2 data-key="latte_category">라떼</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="strawberry_latte_drink">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="딸기라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EB%9D%BC%EB%96%BC/%EB%94%B8%EA%B8%B0%EB%9D%BC%EB%96%BC.png" alt="딸기라떼">
           <div class="name" data-key="strawberry_latte_drink"></div>
           <div class="price" data-price="strawberry_latte_drink"></div>
         </div>
         <div class="menu-item" data-key="hot_chocolate">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="핫초코">
+          <img src="https://github.com/ssh2360/html/blob/main/%EB%9D%BC%EB%96%BC/%ED%95%AB%EC%B4%88%EC%BD%94.png" alt="핫초코">
           <div class="name" data-key="hot_chocolate"></div>
           <div class="price" data-price="hot_chocolate"></div>
         </div>
         <div class="menu-item" data-key="ice_chocolate">
-          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="아이스초코">
+          <img src="https://github.com/ssh2360/html/blob/main/%EB%9D%BC%EB%96%BC/%EC%95%84%EC%9D%B4%EC%8A%A4%EC%B4%88%EC%BD%94.png" alt="아이스초코">
           <div class="name" data-key="ice_chocolate"></div>
           <div class="price" data-price="ice_chocolate"></div>
         </div>
         <div class="menu-item" data-key="hot_green_tea_latte">
-          <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="그린티라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EB%9D%BC%EB%96%BC/%EA%B7%B8%EB%A6%B0%ED%8B%B0%EB%9D%BC%EB%96%BC.png" alt="그린티라떼">
           <div class="name" data-key="hot_green_tea_latte"></div>
           <div class="price" data-price="hot_green_tea_latte"></div>
         </div>
         <div class="menu-item" data-key="ice_green_tea_latte">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="아이스 그린티라떼">
+          <img src="https://github.com/ssh2360/html/blob/main/%EB%9D%BC%EB%96%BC/%EC%95%84%EC%9D%B4%EC%8A%A4%EA%B7%B8%EB%A6%B0%ED%8B%B0%EB%9D%BC%EB%96%BC.png" alt="아이스 그린티라떼">
           <div class="name" data-key="ice_green_tea_latte"></div>
           <div class="price" data-price="ice_green_tea_latte"></div>
         </div>
         <div class="menu-item" data-key="hot_milk_tea">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="밀크티">
+          <img src="https://github.com/ssh2360/html/blob/main/%EB%9D%BC%EB%96%BC/%EB%B0%80%ED%81%AC%ED%8B%B0.png" alt="밀크티">
           <div class="name" data-key="hot_milk_tea"></div>
           <div class="price" data-price="hot_milk_tea"></div>
         </div>
         <div class="menu-item" data-key="ice_milk_tea">
-          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="아이스 밀크티">
+          <img src="https://github.com/ssh2360/html/blob/main/%EB%9D%BC%EB%96%BC/%EC%95%84%EC%9D%B4%EC%8A%A4%EB%B0%80%ED%81%AC%ED%8B%B0.png" alt="아이스 밀크티">
           <div class="name" data-key="ice_milk_tea"></div>
           <div class="price" data-price="ice_milk_tea"></div>
         </div>
@@ -368,42 +368,42 @@
       <h2 data-key="ade_smoothie_category">에이드&스무디</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="lemon_ade_drink">
-          <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="레몬에이드">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%97%90%EC%9D%B4%EB%93%9C/%EB%A0%88%EB%AA%AC%EC%97%90%EC%9D%B4%EB%93%9C.png" alt="레몬에이드">
           <div class="name" data-key="lemon_ade_drink"></div>
           <div class="price" data-price="lemon_ade_drink"></div>
         </div>
         <div class="menu-item" data-key="grapefruit_ade_drink">
-          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="자몽에이드">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9E%90%EB%AA%BD.png" alt="자몽에이드">
           <div class="name" data-key="grapefruit_ade_drink"></div>
           <div class="price" data-price="grapefruit_ade_drink"></div>
         </div>
         <div class="menu-item" data-key="green_grape_ade_drink">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="청포도에이드">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%97%90%EC%9D%B4%EB%93%9C/%EC%B2%AD%ED%8F%AC%EB%8F%84.png" alt="청포도에이드">
           <div class="name" data-key="green_grape_ade_drink"></div>
           <div class="price" data-price="green_grape_ade_drink"></div>
         </div>
         <div class="menu-item" data-key="strawberry_ade_drink">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="딸기에이드">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%97%90%EC%9D%B4%EB%93%9C/%EB%94%B8%EA%B8%B0.png" alt="딸기에이드">
           <div class="name" data-key="strawberry_ade_drink"></div>
           <div class="price" data-price="strawberry_ade_drink"></div>
         </div>
         <div class="menu-item" data-key="mango_passion_ade">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="망고&패션후르츠에이드">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%97%90%EC%9D%B4%EB%93%9C/%EB%A7%9D%EA%B3%A0.png" alt="망고&패션후르츠에이드">
           <div class="name" data-key="mango_passion_ade"></div>
           <div class="price" data-price="mango_passion_ade"></div>
         </div>
         <div class="menu-item" data-key="plain_yogurt_smoothie">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="플레인요거트스무디">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%97%90%EC%9D%B4%EB%93%9C/%EC%9A%94%EA%B1%B0%ED%8A%B8.png" alt="플레인요거트스무디">
           <div class="name" data-key="plain_yogurt_smoothie"></div>
           <div class="price" data-price="plain_yogurt_smoothie"></div>
         </div>
         <div class="menu-item" data-key="strawberry_yogurt_smoothie">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="딸기요거트스무디">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%97%90%EC%9D%B4%EB%93%9C/%EB%94%B8%EA%B8%B0%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94.png" alt="딸기요거트스무디">
           <div class="name" data-key="strawberry_yogurt_smoothie"></div>
           <div class="price" data-price="strawberry_yogurt_smoothie"></div>
         </div>
         <div class="menu-item" data-key="blueberry_yogurt_smoothie">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="블루베리요거트스무디">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%97%90%EC%9D%B4%EB%93%9C/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%EC%9A%94%EA%B1%B0%ED%8A%B8.png" alt="블루베리요거트스무디">
           <div class="name" data-key="blueberry_yogurt_smoothie"></div>
           <div class="price" data-price="blueberry_yogurt_smoothie"></div>
         </div>
@@ -414,57 +414,57 @@
       <h2 data-key="tea_category">티</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="peach_iced_tea_drink">
-          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="복숭아아이스티">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EC%95%84%EC%9D%B4%EC%8A%A4%ED%8B%B0.png" alt="복숭아아이스티">
           <div class="name" data-key="peach_iced_tea_drink"></div>
           <div class="price" data-price="peach_iced_tea_drink"></div>
         </div>
         <div class="menu-item" data-key="cheonggyul_tea">
-          <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="청귤티">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EC%B2%AD%EA%B7%A4%ED%8B%B0.png" alt="청귤티">
           <div class="name" data-key="cheonggyul_tea"></div>
           <div class="price" data-price="cheonggyul_tea"></div>
         </div>
         <div class="menu-item" data-key="hibiscus_tea">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="히비스커스티">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%ED%9E%88%EB%B9%84%EC%8A%A4.png" alt="히비스커스티">
           <div class="name" data-key="hibiscus_tea"></div>
           <div class="price" data-price="hibiscus_tea"></div>
         </div>
         <div class="menu-item" data-key="rooibos_tea">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="루이보스티">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EB%A3%A8%EC%9D%B4%EB%B3%B4%EC%8A%A4.png" alt="루이보스티">
           <div class="name" data-key="rooibos_tea"></div>
           <div class="price" data-price="rooibos_tea"></div>
         </div>
         <div class="menu-item" data-key="grapefruit_honey_black_tea">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="자몽허니블랙티">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EC%9E%90%EB%AA%BD%ED%97%88%EB%8B%88.png" alt="자몽허니블랙티">
           <div class="name" data-key="grapefruit_honey_black_tea"></div>
           <div class="price" data-price="grapefruit_honey_black_tea"></div>
         </div>
         <div class="menu-item" data-key="lemon_tea_drink">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="레몬차">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EB%A0%88%EB%AA%AC.png" alt="레몬차">
           <div class="name" data-key="lemon_tea_drink"></div>
           <div class="price" data-price="lemon_tea_drink"></div>
         </div>
         <div class="menu-item" data-key="citron_tea_drink">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="유자차">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EC%9C%A0%EC%9E%90.png" alt="유자차">
           <div class="name" data-key="citron_tea_drink"></div>
           <div class="price" data-price="citron_tea_drink"></div>
         </div>
         <div class="menu-item" data-key="green_tea_drink">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="녹차">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EB%85%B9%EC%B0%A8.png" alt="녹차">
           <div class="name" data-key="green_tea_drink"></div>
           <div class="price" data-price="green_tea_drink"></div>
         </div>
         <div class="menu-item" data-key="earl_grey_tea">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="얼그레이">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EC%96%BC%EA%B7%B8%EB%A0%88%EC%9D%B4.png" alt="얼그레이">
           <div class="name" data-key="earl_grey_tea"></div>
           <div class="price" data-price="earl_grey_tea"></div>
         </div>
         <div class="menu-item" data-key="chamomile_tea">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="케모마일">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%EC%BA%90%EB%AA%A8%EB%A7%88%EC%9D%BC.png" alt="케모마일">
           <div class="name" data-key="chamomile_tea"></div>
           <div class="price" data-price="chamomile_tea"></div>
         </div>
         <div class="menu-item" data-key="peppermint_tea">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="페퍼민트">
+          <img src="https://github.com/ssh2360/html/blob/main/%ED%8B%B0/%ED%8E%98%ED%8D%BC%EB%AF%BC%ED%8A%B8.png" alt="페퍼민트">
           <div class="name" data-key="peppermint_tea"></div>
           <div class="price" data-price="peppermint_tea"></div>
         </div>
@@ -475,17 +475,17 @@
       <h2 data-key="juice_category">주스</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="strawberry_juice_drink">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="딸기주스">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%A3%BC%EC%8A%A4/%EB%94%B8%EA%B8%B0%EC%A3%BC%EC%8A%A4.png" alt="딸기주스">
           <div class="name" data-key="strawberry_juice_drink"></div>
           <div class="price" data-price="strawberry_juice_drink"></div>
         </div>
         <div class="menu-item" data-key="banana_juice_drink">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="바나나주스">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%A3%BC%EC%8A%A4/%EB%B0%94%EB%82%98%EB%82%98%EC%A3%BC%EC%8A%A4.png" alt="바나나주스">
           <div class="name" data-key="banana_juice_drink"></div>
           <div class="price" data-price="banana_juice_drink"></div>
         </div>
         <div class="menu-item" data-key="strawberry_banana_juice_drink">
-          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="딸기&바나나주스">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%A3%BC%EC%8A%A4/%EB%94%B8%EA%B8%B0%EB%B0%94%EB%82%98%EB%82%98%EC%A3%BC%EC%8A%A4.png" alt="딸기&바나나주스">
           <div class="name" data-key="strawberry_banana_juice_drink"></div>
           <div class="price" data-price="strawberry_banana_juice_drink"></div>
         </div>
@@ -496,12 +496,12 @@
       <h2 data-key="milk_category">우유</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="konkuk_soy_milk_160">
-          <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="국산콩두유 160ml">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EA%B5%AD%EC%82%B0%20%EC%BD%A9%EB%91%90%EC%9C%A0%20160.%3Dml.png" alt="국산콩두유 160ml">
           <div class="name" data-key="konkuk_soy_milk_160"></div>
           <div class="price" data-price="konkuk_soy_milk_160"></div>
         </div>
         <div class="menu-item" data-key="konkuk_soy_milk_set_20">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="국산콩두유세트 20EA">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EA%B1%B4%EA%B5%AD%EB%91%90%EC%9C%A0%2020ea.jpg" alt="국산콩두유세트 20EA">
           <div class="name" data-key="konkuk_soy_milk_set_20"></div>
           <div class="price" data-price="konkuk_soy_milk_set_20"></div>
         </div>
@@ -511,37 +511,37 @@
           <div class="price" data-price="konkuk_soy_milk_1plus1"></div>
         </div>
         <div class="menu-item" data-key="konkuk_hiyo_1plus1">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="건국하이요 1+1">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EA%B1%B4%EA%B5%AD%ED%95%98%EC%9D%B4%EC%9A%94%201%2B1.png" alt="건국하이요 1+1">
           <div class="name" data-key="konkuk_hiyo_1plus1"></div>
           <div class="price" data-price="konkuk_hiyo_1plus1"></div>
         </div>
         <div class="menu-item" data-key="choco_milk_drink">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="초코우유">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EC%B4%88%EC%BD%94%EC%9A%B0%EC%9C%A0.png" alt="초코우유">
           <div class="name" data-key="choco_milk_drink"></div>
           <div class="price" data-price="choco_milk_drink"></div>
         </div>
         <div class="menu-item" data-key="strawberry_milk_drink">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="딸기우유">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EB%94%B8%EA%B8%B0%EC%9A%B0%EC%9C%A0.png" alt="딸기우유">
           <div class="name" data-key="strawberry_milk_drink"></div>
           <div class="price" data-price="strawberry_milk_drink"></div>
         </div>
         <div class="menu-item" data-key="konkuk_milk_200">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="건국우유200ml">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EA%B1%B4%EA%B5%AD%EC%9A%B0%EC%9C%A0%20200ml.png" alt="건국우유200ml">
           <div class="name" data-key="konkuk_milk_200"></div>
           <div class="price" data-price="konkuk_milk_200"></div>
         </div>
         <div class="menu-item" data-key="konkuk_milk_500">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="건국우유500ml">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EA%B1%B4%EA%B5%AD%EC%9A%B0%EC%9C%A0%20200ml.png" alt="건국우유500ml">
           <div class="name" data-key="konkuk_milk_500"></div>
           <div class="price" data-price="konkuk_milk_500"></div>
         </div>
         <div class="menu-item" data-key="jangnmi_apple">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="장앤미(사과)">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EC%9E%A5%EC%95%A4%EB%AF%B8%20%EC%82%AC%EA%B3%BC.png" alt="장앤미(사과)">
           <div class="name" data-key="jangnmi_apple"></div>
           <div class="price" data-price="jangnmi_apple"></div>
         </div>
         <div class="menu-item" data-key="jangnmi_acai">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="장앤미(아사이베리)">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%9A%B0%EC%9C%A0/%EC%9E%A5%EC%95%A4%EB%AF%B8%EC%95%84%EC%82%AC%EC%9D%B4%EB%B2%A0%EB%A6%AC.png" alt="장앤미(아사이베리)">
           <div class="name" data-key="jangnmi_acai"></div>
           <div class="price" data-price="jangnmi_acai"></div>
         </div>
@@ -552,57 +552,57 @@
       <h2 data-key="sandwich_category">샌드위치</h2>
       <div class="menu-list">
         <div class="menu-item" data-key="ciabatta_sandwich">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="치아바타 샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EC%B9%98%EC%95%84%EB%B0%94%ED%83%80.png" alt="치아바타 샌드위치">
           <div class="name" data-key="ciabatta_sandwich"></div>
           <div class="price" data-price="ciabatta_sandwich"></div>
         </div>
         <div class="menu-item" data-key="original_hotdog">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="오리지날 핫도그">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EC%98%A4%EB%A6%AC%EC%A7%80%EB%82%A0%20%ED%95%AB%EB%8F%84%EA%B7%B8.png" alt="오리지날 핫도그">
           <div class="name" data-key="original_hotdog"></div>
           <div class="price" data-price="original_hotdog"></div>
         </div>
         <div class="menu-item" data-key="chili_hotdog">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="칠리핫도그">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EC%98%A4%EB%A6%AC%EC%A7%80%EB%82%A0%20%ED%95%AB%EB%8F%84%EA%B7%B8.png" alt="칠리핫도그">
           <div class="name" data-key="chili_hotdog"></div>
           <div class="price" data-price="chili_hotdog"></div>
         </div>
         <div class="menu-item" data-key="ham_cheese_sandwich_classic">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="햄치즈샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%ED%96%84%EC%B9%98%EC%A6%88%20%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="햄치즈샌드위치">
           <div class="name" data-key="ham_cheese_sandwich_classic"></div>
           <div class="price" data-price="ham_cheese_sandwich_classic"></div>
         </div>
         <div class="menu-item" data-key="tuna_sandwich">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="참치샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EC%B0%B8%EC%B9%98%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="참치샌드위치">
           <div class="name" data-key="tuna_sandwich"></div>
           <div class="price" data-price="tuna_sandwich"></div>
         </div>
         <div class="menu-item" data-key="egg_bacon_cheese_sandwich">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="에그베이컨치즈샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EC%97%90%EA%B7%B8%EB%B2%A0%EC%9D%B4%EC%BB%A8%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="에그베이컨치즈샌드위치">
           <div class="name" data-key="egg_bacon_cheese_sandwich"></div>
           <div class="price" data-price="egg_bacon_cheese_sandwich"></div>
         </div>
         <div class="menu-item" data-key="egg_ham_cheese_sandwich">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="에그햄치즈샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EC%97%90%EA%B7%B8%EB%B2%A0%EC%9D%B4%EC%BB%A8%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="에그햄치즈샌드위치">
           <div class="name" data-key="egg_ham_cheese_sandwich"></div>
           <div class="price" data-price="egg_ham_cheese_sandwich"></div>
         </div>
         <div class="menu-item" data-key="butter_cream_ham_cheese_sandwich">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="버터크림햄치즈샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EB%94%B8%EA%B8%B0%20%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="버터크림햄치즈샌드위치">
           <div class="name" data-key="butter_cream_ham_cheese_sandwich"></div>
           <div class="price" data-price="butter_cream_ham_cheese_sandwich"></div>
         </div>
         <div class="menu-item" data-key="peanut_sandwich">
-          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="땅콩샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EB%94%B8%EA%B8%B0%20%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="땅콩샌드위치">
           <div class="name" data-key="peanut_sandwich"></div>
           <div class="price" data-price="peanut_sandwich"></div>
         </div>
         <div class="menu-item" data-key="strawberry_sandwich">
-          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="딸기샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EB%94%B8%EA%B8%B0%20%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="딸기샌드위치">
           <div class="name" data-key="strawberry_sandwich"></div>
           <div class="price" data-price="strawberry_sandwich"></div>
         </div>
         <div class="menu-item" data-key="kaya_sandwich">
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="카야샌드위치">
+          <img src="https://github.com/ssh2360/html/blob/main/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98/%EC%B9%B4%EC%95%BC%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98.png" alt="카야샌드위치">
           <div class="name" data-key="kaya_sandwich"></div>
           <div class="price" data-price="kaya_sandwich"></div>
         </div>
