@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=480, user-scalable=no">
+  <title>Restio Menu</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    .container { max-width: 480px; margin: 0 auto; background: #fff; padding: 20px 10px 40px 10px; }
+    h1 { text-align: center; margin-bottom: 10px; }
+    .language-selector { text-align: center; margin-bottom: 20px; }
+    .language-selector button {
+      margin: 0 2px; padding: 6px 10px; border: none; border-radius: 5px;
+      background: #ececec; cursor: pointer; font-size: 15px;
+    }
+    .language-selector button.active { background: #4caf50; color: #fff; }
+    .section { margin-bottom: 25px; }
+    .section h2 { margin: 18px 0 10px 10px; font-size: 1.15em; color: #333; }
+    .menu-list { display: flex; flex-wrap: wrap; gap: 16px; justify-content: flex-start; }
+    .menu-item { width: 120px; text-align: center; cursor: pointer; }
+    .menu-item img {
+      width: 110px; height: 110px; border-radius: 12px; object-fit: cover;
+      border: 2px solid #e0e0e0; box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+      background: #f0f0f0;
+    }
+    .menu-item .name { margin-top: 7px; font-size: 1em; color: #222; }
+    /* 팝업/오버레이 */
+    .overlay {
+      display: none; position: fixed; left:0; top:0; width:100vw; height:100vh;
+      background: rgba(0,0,0,0.45); z-index: 99;
+    }
+    .overlay.active { display: block; }
+    .popup {
+      display: none; position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%);
+      background: #fff; padding: 22px 18px; border-radius: 13px; box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+      width: 260px; z-index: 100;
+    }
+    .popup.active { display: block; }
+    .popup .desc { margin-top: 12px; font-size: 1em; color: #444; }
+    .popup .close-btn {
+      position: absolute; top: 7px; right: 11px; background: none; border: none; font-size: 1.2em; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Restio Menu</h1>
+    <div class="language-selector">
+      <button data-lang="ko" class="active">한국어</button>
+      <button data-lang="en">English</button>
+      <button data-lang="ja">日本語</button>
+      <button data-lang="zh">中文</button>
+      <button data-lang="ru">Русский</button>
+      <button data-lang="es">Español</button>
+      <button data-lang="fr">Français</button>
+      <button data-lang="pt">Português</button>
+    </div>
+
+    <!-- 추천 메뉴 -->
+    <div class="section" id="recommended-section">
+      <h2 data-key="recommended">추천 메뉴</h2>
+      <div class="menu-list">
+        <div class="menu-item" data-key="americano">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Americano">
+          <div class="name" data-key="americano"></div>
+        </div>
+        <div class="menu-item" data-key="strawberry_smoothie">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Strawberry Smoothie">
+          <div class="name" data-key="strawberry_smoothie"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 카테고리별 메뉴 -->
+    <div class="section" id="coffee-section">
+      <h2 data-key="coffee">커피</h2>
+      <div class="menu-list">
+        <div class="menu-item" data-key="americano">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Americano">
+          <div class="name" data-key="americano"></div>
+        </div>
+        <div class="menu-item" data-key="latte">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" alt="Latte">
+          <div class="name" data-key="latte"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="beverage-section">
+      <h2 data-key="beverage">음료</h2>
+      <div class="menu-list">
+        <div class="menu-item" data-key="choco">
+          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="Choco">
+          <div class="name" data-key="choco"></div>
+        </div>
+        <div class="menu-item" data-key="milk">
+          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Milk">
+          <div class="name" data-key="milk"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="ade-section">
+      <h2 data-key="ade">에이드</h2>
+      <div class="menu-list">
+        <div class="menu-item" data-key="lemon_ade">
+          <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="Lemon Ade">
+          <div class="name" data-key="lemon_ade"></div>
+        </div>
+        <div class="menu-item" data-key="grapefruit_ade">
+          <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Grapefruit Ade">
+          <div class="name" data-key="grapefruit_ade"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="juice-section">
+      <h2 data-key="juice">주스</h2>
+      <div class="menu-list">
+        <div class="menu-item" data-key="orange_juice">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Orange Juice">
+          <div class="name" data-key="orange_juice"></div>
+        </div>
+        <div class="menu-item" data-key="carrot_juice">
+          <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=400&q=80" alt="Carrot Juice">
+          <div class="name" data-key="carrot_juice"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="tea-section">
+      <h2 data-key="tea">티</h2>
+      <div class="menu-list">
+        <div class="menu-item" data-key="green_tea">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Green Tea">
+          <div class="name" data-key="green_tea"></div>
+        </div>
+        <div class="menu-item" data-key="earl_grey">
+          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="Earl Grey">
+          <div class="name" data-key="earl_grey"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="smoothie-section">
+      <h2 data-key="smoothie">스무디</h2>
+      <div class="menu-list">
+        <div class="menu-item" data-key="strawberry_smoothie">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Strawberry Smoothie">
+          <div class="name" data-key="strawberry_smoothie"></div>
+        </div>
+        <div class="menu-item" data-key="mango_smoothie">
+          <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=400&q=80" alt="Mango Smoothie">
+          <div class="name" data-key="mango_smoothie"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 팝업/오버레이 -->
+  <div class="overlay"></div>
+  <div class="popup">
+    <button class="close-btn">&times;</button>
+    <div class="desc"></div>
+  </div>
+
+  <script>
+    // 다국어 데이터
+    const translations = {
+      recommended: {
+        ko: '추천 메뉴', en: 'Recommended', ja: 'おすすめ', zh: '推荐菜单',
+        ru: 'Рекомендуемое', es: 'Recomendado', fr: 'Recommandé', pt: 'Recomendado'
+      },
+      coffee: {
+        ko: '커피', en: 'Coffee', ja: 'コーヒー', zh: '咖啡',
+        ru: 'Кофе', es: 'Café', fr: 'Café', pt: 'Café'
+      },
+      beverage: {
+        ko: '음료', en: 'Beverage', ja: '飲み物', zh: '饮料',
+        ru: 'Напитки', es: 'Bebida', fr: 'Boisson', pt: 'Bebida'
+      },
+      ade: {
+        ko: '에이드', en: 'Ade', ja: 'エード', zh: '气泡饮',
+        ru: 'Эйд', es: 'Ade', fr: 'Ade', pt: 'Ade'
+      },
+      juice: {
+        ko: '주스', en: 'Juice', ja: 'ジュース', zh: '果汁',
+        ru: 'Сок', es: 'Jugo', fr: 'Jus', pt: 'Suco'
+      },
+      tea: {
+        ko: '티', en: 'Tea', ja: 'お茶', zh: '茶',
+        ru: 'Чай', es: 'Té', fr: 'Thé', pt: 'Chá'
+      },
+      smoothie: {
+        ko: '스무디', en: 'Smoothie', ja: 'スムージー', zh: '冰沙',
+        ru: 'Смузи', es: 'Batido', fr: 'Smoothie', pt: 'Smoothie'
+      },
+      americano: {
+        ko: '아메리카노', en: 'Americano', ja: 'アメリカーノ', zh: '美式咖啡',
+        ru: 'Американо', es: 'Americano', fr: 'Américain', pt: 'Americano'
+      },
+      latte: {
+        ko: '카페라떼', en: 'Café Latte', ja: 'カフェラテ', zh: '拿铁咖啡',
+        ru: 'Латте', es: 'Café Latte', fr: 'Café Latte', pt: 'Café Latte'
+      },
+      choco: {
+        ko: '핫초코', en: 'Hot Chocolate', ja: 'ホットチョコレート', zh: '热巧克力',
+        ru: 'Горячий шоколад', es: 'Chocolate caliente', fr: 'Chocolat chaud', pt: 'Chocolate quente'
+      },
+      milk: {
+        ko: '우유', en: 'Milk', ja: 'ミルク', zh: '牛奶',
+        ru: 'Молоко', es: 'Leche', fr: 'Lait', pt: 'Leite'
+      },
+      lemon_ade: {
+        ko: '레몬에이드', en: 'Lemon Ade', ja: 'レモネード', zh: '柠檬气泡饮',
+        ru: 'Лимонад', es: 'Limonada', fr: 'Limonade', pt: 'Limonada'
+      },
+      grapefruit_ade: {
+        ko: '자몽에이드', en: 'Grapefruit Ade', ja: 'グレープフルーツエード', zh: '西柚气泡饮',
+        ru: 'Грейпфрутовый эйд', es: 'Limonada de pomelo', fr: 'Limonade au pamplemousse', pt: 'Limonada de toranja'
+      },
+      orange_juice: {
+        ko: '오렌지주스', en: 'Orange Juice', ja: 'オレンジジュース', zh: '橙汁',
+        ru: 'Апельсиновый сок', es: 'Jugo de naranja', fr: 'Jus d\'orange', pt: 'Suco de laranja'
+      },
+      carrot_juice: {
+        ko: '당근주스', en: 'Carrot Juice', ja: 'にんじんジュース', zh: '胡萝卜汁',
+        ru: 'Морковный сок', es: 'Jugo de zanahoria', fr: 'Jus de carotte', pt: 'Suco de cenoura'
+      },
+      green_tea: {
+        ko: '녹차', en: 'Green Tea', ja: '緑茶', zh: '绿茶',
+        ru: 'Зелёный чай', es: 'Té verde', fr: 'Thé vert', pt: 'Chá verde'
+      },
+      earl_grey: {
+        ko: '얼그레이', en: 'Earl Grey', ja: 'アールグレイ', zh: '伯爵茶',
+        ru: 'Эрл Грей', es: 'Earl Grey', fr: 'Earl Grey', pt: 'Earl Grey'
+      },
+      strawberry_smoothie: {
+        ko: '딸기스무디', en: 'Strawberry Smoothie', ja: 'イチゴスムージー', zh: '草莓冰沙',
+        ru: 'Клубничный смузи', es: 'Batido de fresa', fr: 'Smoothie à la fraise', pt: 'Smoothie de morango'
+      },
+      mango_smoothie: {
+        ko: '망고스무디', en: 'Mango Smoothie', ja: 'マンゴースムージー', zh: '芒果冰沙',
+        ru: 'Манговый смузи', es: 'Batido de mango', fr: 'Smoothie à la mangue', pt: 'Smoothie de manga'
+      }
+    };
+
+    const descriptions = {
+      americano: {
+        ko: '진한 에스프레소에 뜨거운 물을 더한 깔끔한 커피입니다.',
+        en: 'A clean coffee made by adding hot water to strong espresso.',
+        ja: '濃いエスプレッソにお湯を加えたすっきりしたコーヒーです。',
+        zh: '在浓缩咖啡中加入热水制成的清爽咖啡。',
+        ru: 'Чистый кофе, приготовленный добавлением горячей воды к крепкому эспрессо.',
+        es: 'Un café limpio hecho agregando agua caliente al espresso fuerte.',
+        fr: 'Un café léger préparé en ajoutant de l\'eau chaude à un espresso fort.',
+        pt: 'Café suave feito adicionando água quente ao espresso forte.'
+      },
+      latte: {
+        ko: '부드러운 우유와 에스프레소가 어우러진 커피입니다.',
+        en: 'A coffee with smooth milk and espresso.',
+        ja: '滑らかなミルクとエスプレッソが調和したコーヒーです。',
+        zh: '柔滑牛奶与浓缩咖啡相结合的咖啡。',
+        ru: 'Кофе с нежным молоком и эспрессо.',
+        es: 'Café con leche suave y espresso.',
+        fr: 'Café avec du lait doux et de l\'espresso.',
+        pt: 'Café com leite suave e espresso.'
+      },
+      choco: {
+        ko: '달콤하고 진한 핫초코 음료입니다.',
+        en: 'A sweet and rich hot chocolate drink.',
+        ja: '甘くて濃厚なホットチョコレートです。',
+        zh: '甜美浓郁的热巧克力饮品。',
+        ru: 'Сладкий и насыщенный горячий шоколад.',
+        es: 'Bebida de chocolate caliente dulce y rica.',
+        fr: 'Boisson chaude au chocolat douce et riche.',
+        pt: 'Bebida de chocolate quente doce e rica.'
+      },
+      milk: {
+        ko: '신선한 우유로 만든 음료입니다.',
+        en: 'A drink made with fresh milk.',
+        ja: '新鮮なミルクで作った飲み物です。',
+        zh: '用新鲜牛奶制成的饮品。',
+        ru: 'Напиток из свежего молока.',
+        es: 'Bebida hecha con leche fresca.',
+        fr: 'Boisson à base de lait frais.',
+        pt: 'Bebida feita com leite fresco.'
+      },
+      lemon_ade: {
+        ko: '상큼한 레몬과 탄산이 어우러진 에이드입니다.',
+        en: 'Ade with fresh lemon and sparkling water.',
+        ja: 'さっぱりレモンと炭酸のエードです。',
+        zh: '清爽柠檬与气泡水的结合。',
+        ru: 'Эйд со свежим лимоном и газированной водой.',
+        es: 'Limonada con limón fresco y agua con gas.',
+        fr: 'Ade au citron frais et eau pétillante.',
+        pt: 'Ade com limão fresco e água com gás.'
+      },
+      grapefruit_ade: {
+        ko: '자몽의 쌉쌀함과 상큼함이 살아있는 에이드입니다.',
+        en: 'Ade with the bitterness and freshness of grapefruit.',
+        ja: 'グレープフルーツの苦味と爽やかさが際立つエードです。',
+        zh: '西柚的苦涩与清新完美结合。',
+        ru: 'Эйд с горечью и свежестью грейпфрута.',
+        es: 'Limonada con el amargor y frescura del pomelo.',
+        fr: 'Ade à l\'amertume et à la fraîcheur du pamplemousse.',
+        pt: 'Ade com o amargor e frescor da toranja.'
+      },
+      orange_juice: {
+        ko: '신선한 오렌지로 만든 상큼한 주스입니다.',
+        en: 'A refreshing juice made from fresh oranges.',
+        ja: '新鮮なオレンジで作ったさっぱりジュースです。',
+        zh: '用新鲜橙子制成的清爽果汁。',
+        ru: 'Освежающий сок из свежих апельсинов.',
+        es: 'Jugo refrescante hecho de naranjas frescas.',
+        fr: 'Jus rafraîchissant à base d\'oranges fraîches.',
+        pt: 'Suco refrescante feito de laranjas frescas.'
+      },
+      carrot_juice: {
+        ko: '달콤한 당근의 맛이 가득한 주스입니다.',
+        en: 'A juice full of sweet carrot flavor.',
+        ja: '甘いにんじんの風味が広がるジュースです。',
+        zh: '充满甜美胡萝卜味的果汁。',
+        ru: 'Сок с насыщенным вкусом сладкой моркови.',
+        es: 'Jugo lleno de sabor dulce de zanahoria.',
+        fr: 'Jus au goût sucré de carotte.',
+        pt: 'Suco cheio de sabor doce de cenoura.'
+      },
+      green_tea: {
+        ko: '은은한 향과 깔끔한 맛의 녹차입니다.',
+        en: 'Green tea with a subtle aroma and clean taste.',
+        ja: 'ほのかな香りとすっきりした味わいの緑茶です。',
+        zh: '清香淡雅的绿茶。',
+        ru: 'Зелёный чай с тонким ароматом и чистым вкусом.',
+        es: 'Té verde con aroma sutil y sabor limpio.',
+        fr: 'Thé vert à l\'arôme subtil et au goût pur.',
+        pt: 'Chá verde com aroma suave e sabor limpo.'
+      },
+      earl_grey: {
+        ko: '베르가못 향이 매력적인 홍차입니다.',
+        en: 'Black tea with attractive bergamot aroma.',
+        ja: 'ベルガモットの香りが魅力的な紅茶です。',
+        zh: '具有佛手柑香气的红茶。',
+        ru: 'Чёрный чай с ароматом бергамота.',
+        es: 'Té negro con aroma atractivo de bergamota.',
+        fr: 'Thé noir au parfum de bergamote.',
+        pt: 'Chá preto com aroma de bergamota.'
+      },
+      strawberry_smoothie: {
+        ko: '상큼한 딸기가 듬뿍 들어간 스무디입니다.',
+        en: 'Smoothie full of fresh strawberries.',
+        ja: '新鮮なイチゴがたっぷり入ったスムージーです。',
+        zh: '充满新鲜草莓的冰沙。',
+        ru: 'Смузи с большим количеством свежей клубники.',
+        es: 'Batido lleno de fresas frescas.',
+        fr: 'Smoothie plein de fraises fraîches.',
+        pt: 'Smoothie cheio de morangos frescos.'
+      },
+      mango_smoothie: {
+        ko: '달콤한 망고가 어우러진 스무디입니다.',
+        en: 'Smoothie with sweet mango.',
+        ja: '甘いマンゴーが入ったスムージーです。',
+        zh: '甜美芒果冰沙。',
+        ru: 'Смузи с сочным манго.',
+        es: 'Batido con mango dulce.',
+        fr: 'Smoothie à la mangue sucrée.',
+        pt: 'Smoothie com manga doce.'
+      }
+    };
+
+    let currentLang = 'ko';
+
+    // 번역 함수
+    function translateMenu(lang) {
+      // 섹션/카테고리명
+      document.querySelectorAll('[data-key]').forEach(el => {
+        const key = el.getAttribute('data-key');
+        if (translations[key] && translations[key][lang]) {
+          el.textContent = translations[key][lang];
+        }
+      });
+    }
+
+    // 언어 선택 이벤트
+    document.querySelectorAll('.language-selector button').forEach(btn => {
+      btn.onclick = function() {
+        document.querySelectorAll('.language-selector button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentLang = btn.getAttribute('data-lang');
+        translateMenu(currentLang);
+      }
+    });
+
+    // 메뉴명 최초 번역
+    translateMenu(currentLang);
+
+    // 팝업
+    const overlay = document.querySelector('.overlay');
+    const popup = document.querySelector('.popup');
+    const popupDesc = popup.querySelector('.desc');
+    const closeBtn = popup.querySelector('.close-btn');
+
+    // 메뉴 클릭 이벤트
+    document.querySelectorAll('.menu-item').forEach(item => {
+      item.onclick = function() {
+        const key = item.getAttribute('data-key');
+        popupDesc.textContent = descriptions[key][currentLang];
+        popup.classList.add('active');
+        overlay.classList.add('active');
+      }
+    });
+    // 팝업 닫기
+    closeBtn.onclick = overlay.onclick = function() {
+      popup.classList.remove('active');
+      overlay.classList.remove('active');
+    };
+
+    // 언어 변경 시 팝업 내용도 갱신
+    document.querySelectorAll('.language-selector button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (popup.classList.contains('active')) {
+          // 현재 열린 팝업의 key를 찾아서 설명 갱신
+          const openedKey = Array.from(document.querySelectorAll('.menu-item')).find(item => {
+            return descriptions[item.getAttribute('data-key')][currentLang] === popupDesc.textContent;
+          })?.getAttribute('data-key');
+          if (openedKey) popupDesc.textContent = descriptions[openedKey][currentLang];
+        }
+      });
+    });
+  </script>
+</body>
+</html>
