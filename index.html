@@ -1064,19 +1064,7 @@
     const popupDesc = popup.querySelector('.desc');
     const closeBtn = popup.querySelector('.close-btn');
 
-    document.querySelectorAll('.menu-item').forEach(item => {
-      item.onclick = function() {
-        const key = item.getAttribute('data-key');
-        if (descriptions[key] && descriptions[key][currentLang]) {
-          popupDesc.textContent = descriptions[key][currentLang];
-        } else {
-          popupDesc.textContent = "Description not available."; // Fallback
-        }
-        popup.classList.add('active');
-        popup.setAttribute('data-key', key); // 팝업에 현재 메뉴 키 저장
-        overlay.classList.add('active');
-      }
-    });
+  
     closeBtn.onclick = overlay.onclick = function() {
       popup.classList.remove('active');
       overlay.classList.remove('active');
